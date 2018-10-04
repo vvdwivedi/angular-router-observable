@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>first</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-button (click)="switchCategories('abc', 123)">First</ion-button>
+  <ion-button (click)="switchCategories('dfs', 433)">Second</ion-button>
+  <ion-button (click)="switchCategories('rwe', 5454)">third</ion-button>
+  <ion-button (click)="switchCategories('hghfg', 4343)">Fourth</ion-button>
+  <ion-button (click)="switchCategories('rere', 213)">Fifth</ion-button>
+
+  <p>{{categoryId}}</p>
+  <p>{{categoryName}}</p>
+
+  <ion-button (click)="pageOne()">home</ion-button>
+  <ion-button (click)="pageThree()">three</ion-button>
+</ion-content>
